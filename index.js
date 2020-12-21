@@ -10,7 +10,7 @@ client.on('ready', () => {
 
 client.on('message', async msg => {
  if (msg.content === 'ping') {
- 	msg.reply('pong');
+ 	msg.reply('Feeling upgraded');
  	} else if (msg.content === 'fetch') {
 	 	const allMessages = await fetchAll.messages(msg.channel, {
 		    reverseArray: true, // Reverse the returned array

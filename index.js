@@ -28,12 +28,15 @@ client.on('message', async msg => { //'async' was added to support the fetch/awa
     });
 
     // create a new array to store only what we want to store
-    let starBucket = [];
+    //let starBucket = [];
 
     // for every fetched message, push only the message content into starVucket array
-    for (let eachMessage of allMessages) {
-      starBucket.push(eachMessage.content);
-    }
+    // for (let eachMessage of allMessages) {
+    //   starBucket.push(eachMessage.content);
+    // }
+
+    // fetch only the timestamp and content of allMessages and create a new array called Starbucket
+    const starBucket = allMessages.map(({createdTimestamp, content}) => ({createdTimestamp, content}));
 
     //print starBucket in the console
 		console.log(starBucket);

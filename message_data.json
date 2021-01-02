@@ -1,0 +1,314 @@
+[ <
+  ref * 1 > Message {
+    channel: TextChannel {
+      type: 'text',
+      deleted: false,
+      id: '792687915251007489',
+      name: 'startography-test',
+      rawPosition: 16,
+      parentID: '747236877739753653',
+      permissionOverwrites: Collection(0)[Map] {},
+      topic: null,
+      nsfw: false,
+      lastMessageID: '792688183526948884',
+      rateLimitPerUser: 0,
+      lastPinTimestamp: null,
+      guild: [Guild],
+      messages: [MessageManager],
+      _typing: [Map]
+    },
+    deleted: false,
+    id: '792687977968697354',
+    type: 'DEFAULT',
+    system: false,
+    content: '⭐ <@!522755349556494346> for learning awesome coding',
+    author: User {
+      id: '522755349556494346',
+      username: 'Hayfield',
+      bot: false,
+      discriminator: '4624',
+      avatar: 'd4da9980e812b4a0efbd43ef16437d01',
+      flags: [UserFlags],
+      lastMessageID: null,
+      lastMessageChannelID: null
+    },
+    pinned: false,
+    tts: false,
+    nonce: null,
+    embeds: [],
+    attachments: Collection(0)[Map] {},
+    createdTimestamp: 1609061941378,
+    editedTimestamp: 0,
+    reactions: ReactionManager {
+      cacheType: [class Collection extends Collection],
+      cache: [Collection[Map]],
+      message: [Circular * 1]
+    },
+    mentions: MessageMentions {
+      everyone: false,
+      users: [Collection[Map]],
+      roles: Collection(0)[Map] {},
+      _members: null,
+      _channels: null,
+      crosspostedChannels: Collection(0)[Map] {}
+    },
+    webhookID: null,
+    application: null,
+    activity: null,
+    _edits: [],
+    flags: MessageFlags {
+      bitfield: 0
+    },
+    reference: null
+  }, 
+  // end of first message
+  <
+  ref * 2 > Message {
+    channel: TextChannel {
+      type: 'text',
+      deleted: false,
+      id: '792687915251007489',
+      name: 'startography-test',
+      rawPosition: 16,
+      parentID: '747236877739753653',
+      permissionOverwrites: Collection(0)[Map] {},
+      topic: null,
+      nsfw: false,
+      lastMessageID: '792688183526948884',
+      rateLimitPerUser: 0,
+      lastPinTimestamp: null,
+      guild: [Guild],
+      messages: [MessageManager],
+      _typing: [Map]
+    },
+    deleted: false,
+    id: '792688023858053121',
+    type: 'DEFAULT',
+    system: false,
+    content: '⭐ <@!599606956319178762> for helping with the coding',
+    author: User {
+      id: '522755349556494346',
+      username: 'Hayfield',
+      bot: false,
+      discriminator: '4624',
+      avatar: 'd4da9980e812b4a0efbd43ef16437d01',
+      flags: [UserFlags],
+      lastMessageID: null,
+      lastMessageChannelID: null
+    },
+    pinned: false,
+    tts: false,
+    nonce: null,
+    embeds: [],
+    attachments: Collection(0)[Map] {},
+    createdTimestamp: 1609061952319,
+    editedTimestamp: 0,
+    reactions: ReactionManager {
+      cacheType: [class Collection extends Collection],
+      cache: Collection(0)[Map] {},
+      message: [Circular * 2]
+    },
+    mentions: MessageMentions {
+      everyone: false,
+      users: [Collection[Map]],
+      roles: Collection(0)[Map] {},
+      _members: null,
+      _channels: null,
+      crosspostedChannels: Collection(0)[Map] {}
+    },
+    webhookID: null,
+    application: null,
+    activity: null,
+    _edits: [],
+    flags: MessageFlags {
+      bitfield: 0
+    },
+    reference: null
+  }, <
+  ref * 3 > Message {
+    channel: TextChannel {
+      type: 'text',
+      deleted: false,
+      id: '792687915251007489',
+      name: 'startography-test',
+      rawPosition: 16,
+      parentID: '747236877739753653',
+      permissionOverwrites: Collection(0)[Map] {},
+      topic: null,
+      nsfw: false,
+      lastMessageID: '792688183526948884',
+      rateLimitPerUser: 0,
+      lastPinTimestamp: null,
+      guild: [Guild],
+      messages: [MessageManager],
+      _typing: [Map]
+    },
+    deleted: false,
+    id: '792688086064037919',
+    type: 'DEFAULT',
+    system: false,
+    content: '⭐ <@!390653738106224640> and <@!705608240699801602> for cheering me on',
+    author: User {
+      id: '522755349556494346',
+      username: 'Hayfield',
+      bot: false,
+      discriminator: '4624',
+      avatar: 'd4da9980e812b4a0efbd43ef16437d01',
+      flags: [UserFlags],
+      lastMessageID: null,
+      lastMessageChannelID: null
+    },
+    pinned: false,
+    tts: false,
+    nonce: null,
+    embeds: [],
+    attachments: Collection(0)[Map] {},
+    createdTimestamp: 1609061967150,
+    editedTimestamp: 0,
+    reactions: ReactionManager {
+      cacheType: [class Collection extends Collection],
+      cache: Collection(0)[Map] {},
+      message: [Circular * 3]
+    },
+    mentions: MessageMentions {
+      everyone: false,
+      users: [Collection[Map]],
+      roles: Collection(0)[Map] {},
+      _members: null,
+      _channels: null,
+      crosspostedChannels: Collection(0)[Map] {}
+    },
+    webhookID: null,
+    application: null,
+    activity: null,
+    _edits: [],
+    flags: MessageFlags {
+      bitfield: 0
+    },
+    reference: null
+  }, <
+  ref * 4 > Message {
+    channel: TextChannel {
+      type: 'text',
+      deleted: false,
+      id: '792687915251007489',
+      name: 'startography-test',
+      rawPosition: 16,
+      parentID: '747236877739753653',
+      permissionOverwrites: Collection(0)[Map] {},
+      topic: null,
+      nsfw: false,
+      lastMessageID: '792688183526948884',
+      rateLimitPerUser: 0,
+      lastPinTimestamp: null,
+      guild: [Guild],
+      messages: [MessageManager],
+      _typing: [Map]
+    },
+    deleted: false,
+    id: '792688143249047583',
+    type: 'DEFAULT',
+    system: false,
+    content: '⭐ <@!562939432064516099> for helping set the spec',
+    author: User {
+      id: '522755349556494346',
+      username: 'Hayfield',
+      bot: false,
+      discriminator: '4624',
+      avatar: 'd4da9980e812b4a0efbd43ef16437d01',
+      flags: [UserFlags],
+      lastMessageID: null,
+      lastMessageChannelID: null
+    },
+    pinned: false,
+    tts: false,
+    nonce: null,
+    embeds: [],
+    attachments: Collection(0)[Map] {},
+    createdTimestamp: 1609061980784,
+    editedTimestamp: 0,
+    reactions: ReactionManager {
+      cacheType: [class Collection extends Collection],
+      cache: Collection(0)[Map] {},
+      message: [Circular * 4]
+    },
+    mentions: MessageMentions {
+      everyone: false,
+      users: [Collection[Map]],
+      roles: Collection(0)[Map] {},
+      _members: null,
+      _channels: null,
+      crosspostedChannels: Collection(0)[Map] {}
+    },
+    webhookID: null,
+    application: null,
+    activity: null,
+    _edits: [],
+    flags: MessageFlags {
+      bitfield: 0
+    },
+    reference: null
+  }, <
+  ref * 5 > Message {
+    channel: TextChannel {
+      type: 'text',
+      deleted: false,
+      id: '792687915251007489',
+      name: 'startography-test',
+      rawPosition: 16,
+      parentID: '747236877739753653',
+      permissionOverwrites: Collection(0)[Map] {},
+      topic: null,
+      nsfw: false,
+      lastMessageID: '792688183526948884',
+      rateLimitPerUser: 0,
+      lastPinTimestamp: null,
+      guild: [Guild],
+      messages: [MessageManager],
+      _typing: [Map]
+    },
+    deleted: false,
+    id: '792688183526948884',
+    type: 'DEFAULT',
+    system: false,
+    content: 'fetch',
+    author: User {
+      id: '522755349556494346',
+      username: 'Hayfield',
+      bot: false,
+      discriminator: '4624',
+      avatar: 'd4da9980e812b4a0efbd43ef16437d01',
+      flags: [UserFlags],
+      lastMessageID: null,
+      lastMessageChannelID: null
+    },
+    pinned: false,
+    tts: false,
+    nonce: null,
+    embeds: [],
+    attachments: Collection(0)[Map] {},
+    createdTimestamp: 1609061990387,
+    editedTimestamp: 0,
+    reactions: ReactionManager {
+      cacheType: [class Collection extends Collection],
+      cache: Collection(0)[Map] {},
+      message: [Circular * 5]
+    },
+    mentions: MessageMentions {
+      everyone: false,
+      users: Collection(0)[Map] {},
+      roles: Collection(0)[Map] {},
+      _members: null,
+      _channels: null,
+      crosspostedChannels: Collection(0)[Map] {}
+    },
+    webhookID: null,
+    application: null,
+    activity: null,
+    _edits: [],
+    flags: MessageFlags {
+      bitfield: 0
+    },
+    reference: null
+  }
+]

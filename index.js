@@ -10,6 +10,9 @@ require('dotenv').config()
 //says: we're using the 'discord-fetch-all' package
 const fetchAll = require('discord-fetch-all');
 
+//says: we're using the 'objects-to-csv' package
+const ObjectsToCsv = require('objects-to-csv');
+
 //? I think this is an 'even't which I need to learn about which
 client.on('ready', () => { //? this checks whether the bot is connected to the server - not sure where 'ready' comes from
   console.log(`Logged in as ${client.user.tag}!`); //? if the connection is good, it prints this message to the console, using the bot name 
@@ -38,13 +41,31 @@ client.on('message', async msg => { //'async' was added to support the fetch/awa
 
     //convert discord createdTimestamp to a preferred date format
 
-    for (let star of starBucket) {
-      star.createdTimestamp = new Date(star.createdTimestamp);
-  }
+    function convertTimestamps() {
+      for (let star of starBucket) {
+        star.createdTimestamp = new Date(star.createdTimestamp);
+      }
+    }
 
-  //print starBucket in the console
-  console.log(starBucket);
+    convertTimestamps();
+
+    // Save CSV file to disk:
+
+async function createCSV () {
+  const result = await convertTimestamps();
+  const csv = new ObjectsToCsv(starBucket);
+  csv.toDisk('./test.csv');
+
+
 }
+
+    createCSV();
+
+//print the output to the console, for testing
+
+    console.log(starBucket);
+
+  }
 });
 
 client.login(process.env.TOKEN); //logs the bot into the server using the token stored in the .env file

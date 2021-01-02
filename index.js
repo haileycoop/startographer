@@ -26,11 +26,17 @@ client.on('message', async msg => { //'async' was added to support the fetch/awa
       botOnly: false, // Only return messages by bots
       pinnedOnly: false, // Only returned pinned messages
     });
+
+    // create a new array to store only what we want to store
     let starBucket = [];
+
+    // for every fetched message, push only the message content into starVucket array
     for (let eachMessage of allMessages) {
       starBucket.push(eachMessage.content);
     }
-		console.log(starBucket); //prints that array in the console
+
+    //print starBucket in the console
+		console.log(starBucket);
   }
 });
 

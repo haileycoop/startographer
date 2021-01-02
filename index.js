@@ -51,17 +51,25 @@ client.on('message', async msg => { //'async' was added to support the fetch/awa
 
     // Save CSV file to disk:
 
-async function createCSV () {
-  const result = await convertTimestamps();
-  const csv = new ObjectsToCsv(starBucket);
-  csv.toDisk('./test.csv');
+    async function createCSV() {
+      const result = await convertTimestamps();
+      const csv = new ObjectsToCsv(starBucket);
+      csv.toDisk('./test.csv');
 
 
-}
+    }
 
     createCSV();
 
-//print the output to the console, for testing
+    async function sendCSV() {
+      const attachment = new Discord.MessageAttachment('test.csv');
+      // Send the attachment in the message channel
+      msg.channel.send(`Here is your starmap, explorer.`, attachment);
+    }
+
+    sendCSV();
+
+    //print the output to the console, for testing
 
     console.log(starBucket);
 

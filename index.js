@@ -27,20 +27,24 @@ client.on('message', async msg => { //'async' was added to support the fetch/awa
       pinnedOnly: false, // Only returned pinned messages
     });
 
-    // create a new array to store only what we want to store
-    //let starBucket = [];
-
-    // for every fetched message, push only the message content into starVucket array
-    // for (let eachMessage of allMessages) {
-    //   starBucket.push(eachMessage.content);
-    // }
-
     // fetch only the timestamp and content of allMessages and create a new array called Starbucket
-    const starBucket = allMessages.map(({createdTimestamp, content}) => ({createdTimestamp, content}));
+    const starBucket = allMessages.map(({
+      createdTimestamp,
+      content
+    }) => ({
+      createdTimestamp,
+      content
+    }));
 
-    //print starBucket in the console
-		console.log(starBucket);
+    //convert discord createdTimestamp to a preferred date format
+
+    for (let star of starBucket) {
+      star.createdTimestamp = new Date(star.createdTimestamp);
   }
+
+  //print starBucket in the console
+  console.log(starBucket);
+}
 });
 
 client.login(process.env.TOKEN); //logs the bot into the server using the token stored in the .env file

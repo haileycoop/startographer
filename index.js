@@ -54,7 +54,7 @@ client.on('message', async msg => { //'async' was added to support the fetch/awa
     async function createCSV() {
       const result = await convertTimestamps();
       const csv = new ObjectsToCsv(starBucket);
-      csv.toDisk('./test.csv');
+      csv.toDisk('./starmap.csv');
 
 
     }
@@ -62,7 +62,7 @@ client.on('message', async msg => { //'async' was added to support the fetch/awa
     createCSV();
 
     async function sendCSV() {
-      const attachment = new Discord.MessageAttachment('test.csv');
+      const attachment = new Discord.MessageAttachment('starmap.csv');
       // Send the attachment in the message channel
       msg.channel.send(`Here is your starmap, explorer.`, attachment);
     }

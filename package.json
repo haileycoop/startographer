@@ -1,0 +1,26 @@
+{
+  "name": "startographer",
+  "version": "1.0.0",
+  "description": "A Discord bot to help manage messages as part of our Night Sky ritual",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haileycoop/startographer.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "messages",
+    "stars",
+    "reflection"
+  ],
+  "author": "Hailey Cooperrider",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haileycoop/startographer/issues"
+  },
+  "homepage": "https://github.com/haileycoop/startographer#readme"
+}

@@ -1,12 +1,15 @@
 //dependencies
-const Discord = require('discord.js'); //Discord.js
+const {Client, GatewayIntentBits} = require('discord.js'); //Discord.js
 const fetchAll = require('discord-fetch-all'); //fetching all messages from a channel
 const ObjectsToCsv = require('objects-to-csv'); //dump an array of objects in a CSV
 require('dotenv').config() //looks for the separate .env config file, which stores the token
 
-
 //protocols for starting up the bot
-const client = new Discord.Client(); //creates an object that lets the bot connect to the Discord API
+const client = new Client({
+	intents: [
+		GatewayIntentBits.MessageContent,
+	],
+}); //start the discord client with message content intents
 client.login(process.env.TOKEN); //log the bot into the server using the token stored in the .env file
 client.on('ready', () => { //connect the bot to the server
   console.log(`Logged in as ${client.user.tag}!`); //let us know the connection worked

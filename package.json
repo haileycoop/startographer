@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/haileycoop/startographer/issues"
   },
-  "homepage": "https://github.com/haileycoop/startographer#readme"
+  "homepage": "https://github.com/haileycoop/startographer#readme",
+  "dependencies": {
+    "discord-fetch-all": "^3.0.2",
+    "discord.js": "^14.7.1",
+    "nodemon": "^2.0.20",
+    "objects-to-csv": "^1.3.6"
+  }
 }
